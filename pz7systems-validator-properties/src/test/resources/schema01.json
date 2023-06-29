@@ -1,0 +1,50 @@
+[
+  {
+    "name" : "validator.properties.propertiegeral.propertie01",
+    "description" : "Propriedade1 que visa algo",
+    "values" : ["1", "2", "3", "5", "10"],
+    "defaultEnvironment" : {
+      "requirement" : "mandatory",
+      "defaultValue" : "1"
+    },
+    "environments": [
+      {
+        "environmentName" : "dev",
+        "requirement" : "mandatory",
+        "defaultValue" : "1"
+      },
+      {
+        "environmentName" : "prod",
+        "requirement" : "mandatory",
+        "defaultValue" : "10"
+      }
+    ]
+  },
+  {
+    "name" : "validator.properties.propertiegeral.propertie02",
+    "description" : "Propriedade2 que visa algo",
+    "values" : ["a", "b", "c"],
+    "defaultEnvironment" : {
+      "requirement" : "desired",
+      "defaultValue" : "b"
+    }
+  },
+  {
+    "name" : "validator.properties.propertiegeral.propertie03",
+    "description" : "Propriedade3 que visa algo",
+    "values" : ["a", "b", "c"],
+    "defaultEnvironment" : {
+      "requirement" : "optional",
+      "defaultValue" : "c"
+    }
+  },
+  {
+    "name" : "validator.properties.propertiegeral.propertie04",
+    "description" : "Propriedade4 que visa algo",
+    "values" : ["a", "b", "c"],
+    "defaultEnvironment" : {
+      "requirement" : "mandatory",
+      "defaultValue" : "c"
+    }
+  }
+]
